@@ -1,0 +1,64 @@
+body
+{
+    background-color: #F0E9D2;
+}
+hr
+{
+    background-color: #678983;
+    border-style:none;
+    border-width: 20px;
+    height: 3px;
+    width: 30%;
+    margin:0 auto 0 0;
+}
+h1{
+    color: #181D31;
+}
+h2{
+    color: #181D31;
+}
+img
+{
+    max-width: 100%;
+    height:auto;
+}
+img:hover
+{
+    transform: scale(1.1);
+}
+li
+{
+    margin: 10px 0;
+}
+
+/*****Class selectors*****/
+
+.button
+{
+    border-style: outset;
+    border-color: #E6DDC4;
+    border-width: 5px;
+}
+.button:hover
+{
+    border-style: inset;
+    border-width: 5px;
+}
+
+.button:active
+{
+    border-left-color: #181D31;
+    border-top-color: #181D31;
+}
+
+.playable
+{
+    border-color: #678983
+}
+
+/*****ID Selectors*****/
+
+#heading
+{
+    color:#678983;
+}
